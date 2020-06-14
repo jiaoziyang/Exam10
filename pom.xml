@@ -164,9 +164,14 @@
 			<artifactId>commons-fileupload</artifactId>
 			<version>1.2.2</version>
 		</dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
 
 
-	</dependencies>
+    </dependencies>
 	<build>
 		<plugins>
 			<!-- 配置编译器插件，指定编译级为1.8 -->
